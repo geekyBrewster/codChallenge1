@@ -14,6 +14,9 @@ $(document).ready(function(){
     // console.log($(this).parent());
   });
 
-
+  $('.container').on('click','#delete', function(){
+    $(this).parent().remove();
+    // console.log($(this).parent());
+  });
 
 });
